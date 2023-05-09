@@ -1,0 +1,22 @@
+.edu {
+    display:inline-block;
+    width: 300px;
+}
+
+.nav-bar li {
+    display:inline-block;
+}
+
+.contact li {
+    display:inline-block;
+}
+
+.django {
+    width:450px;
+}
+
+.html {
+    position:relative;
+    left: 500px;
+    bottom: 250px;
+}
