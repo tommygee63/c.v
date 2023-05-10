@@ -1,22 +1,150 @@
+* {
+    font-family: PT Serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px dashed black;
+    background-color: #e6f5ff;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 8px;
+}
+
+body {
+    margin-top: 0px;
+    
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+/*
 .edu {
     display:inline-block;
     width: 300px;
+    border: 1px solid red
 }
-
+*/
 .nav-bar li {
     display:inline-block;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 5px;
+    margin-right:5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+}
+
+.navigation a:visited {
+    color: black;
+}
+
+.navigation a:hover {
+    background-color: #000000;
+    color:#e6f5ff
+}
+
+.contact li {
+    margin: 0 15px;
+}
+
+.contact .phone {
+    padding-right: 15px;
+    border-right: 1px solid black;
+}
+
+.contact .email {
+    padding-right: 15px;
+    border-right: 1px solid black
+}
+
+.linked a {
+    text-decoration: none;
+    background-color: #e6f5ff;
+}
+
+.linked a:visited {
+    color:black;
+}
+
+.linked a:hover {
+    color:#e6f5ff;
+    background-color: #000000;
+}
+
+h2 {
+    background-color: #e6f5ff;
 }
 
 .contact li {
     display:inline-block;
 }
 
-.django {
-    width:450px;
+.edu-main {
+    display: table;
 }
 
-.html {
-    position:relative;
-    left: 500px;
-    bottom: 250px;
+.edu {
+    display: table-cell;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
 }
+
+#first {
+    border-left: 2px solid black;
+}
+
+#last {
+    border-right: 2px solid black;
+}
+
+.table {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.quals table {
+    border: 2px solid black;
+}
+
+.quals td {
+    border: 1px solid black;
+    padding: 2px 5px;
+    background-color: #e6f5ff;
+}
+
+.quals a {
+    text-decoration: none;
+    background-color: #e6f5ff;
+    color: black;
+}
+
+.table a:hover {
+    background-color: #000000;
+    color: #e6f5ff;
+}
+
+.projects {
+    display: table;
+}
+
+.project {
+    display: table-cell;
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+

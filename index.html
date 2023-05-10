@@ -2,28 +2,31 @@
 <html>
     <head>
         <title>Tommy Gee C.V</title>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <h1>Tommy Gee</h1>
             <div class="navigation">
+                <nav>
                 <ul class="nav-bar">
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#quals">Qualifications</a></li>
-                    <li>Portfolio</li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                 </ul>
+                </nav>
             </div>
         </header>
         <main>
             <div class="contact" id="contact">
                 <h2>Contact</h2>
                 <ul>
-                    <li>Phone - 07850 131763</li>
-                    <li>Email - tommygee63@googlemail.com</li>
-                    <li>LinkedIn - <a href="https://www.linkedin.com/in/tommy-gee-266b4923b/" target="_blank">Tommy Gee</a></li>
+                    <li class="phone">Phone - 07850 131763</li>
+                    <li class="email">Email - tommygee63@googlemail.com</li>
+                    <li class="linked">LinkedIn - <a href="https://www.linkedin.com/in/tommy-gee-266b4923b/" target="_blank">Tommy Gee</a></li>
                 </ul>
             </div>
             <div class="work" id="work">
@@ -59,7 +62,7 @@
             <div class="education" id="education">
                 <h2>Education</h2>
                 <div class="edu-main">
-                    <div class="edu">
+                    <div class="edu" id="first">
                         <h3>Certificate of Education</h3>
                         <p>Level 5 teaching qualification attined at Truro College through Plymouth University</p>
                     </div>
@@ -71,7 +74,7 @@
                         <h3>A-Levels</h3>
                         <p>P.E grade C, Photography grade C, History grade B</p>
                     </div>
-                    <div class="edu">
+                    <div class="edu" id="last">
                         <h3>GCSE</h3>
                         <p> 10 GCSEs including English grade C C, Maths grade B, Science grade C C</p>
                     </div>
@@ -79,6 +82,7 @@
             </div>
             <div class="quals" id="quals">
                 <h2>Qualifications</h2>
+                <div class="table">
                 <table>
                     <tr>
                         <td><a href="https://www.codecademy.com/profiles/tommygee63/certificates/607878ed81004d0017706259" target="_blank">Build Python Web Apps with Django</a></td>
@@ -88,11 +92,12 @@
                         <td><a href="https://www.codecademy.com/profiles/tommygee63/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank">Learn Python 3</a></td>
                     </tr>
                 </table>
+                </div>
             </div>
             <div class="portfolio" id="portfolio">
                 <h2>Portfolio</h2>
-                <div class="repo">
-                    <div class="django">
+                <div class="projects">
+                    <div class="project" id="project-1">
                         <h3>Django Delights</h3>
                         <p>Django delights is the final project in the Build Python Web Apps with Django skill path.</p>
                         <p>It is an inventory management app that allows the user to:</p>
@@ -104,7 +109,7 @@
                         </ul>
                         <p>The code for Django Delights can be viewed <a href="https://github.com/tommygee63/djangodelights" target="_blank">here</a>.</p>
                     </div>
-                    <div class="html">
+                    <div class="project" id="project-2">
                         <h3>HTML Cheatsheet</h3>
                         <p>The page can be viewed <a href="https://tommygee63.github.io/html-cheatsheet/" target="_blank">here</a>. The code can be viewed <a href="https://github.com/tommygee63/html-cheatsheet" target="_blank">here</a>.</p>
                     </div>                 
