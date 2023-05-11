@@ -22,13 +22,7 @@ main {
     width: 85%;
     margin: 0 auto;
 }
-/*
-.edu {
-    display:inline-block;
-    width: 300px;
-    border: 1px solid red
-}
-*/
+
 .nav-bar li {
     display:inline-block;
     padding: 2px;
@@ -149,4 +143,26 @@ h2 {
     padding: 0 15px;
     padding-bottom: 15px;
 }
+
+footer {
+    text-align: center;
+    border-top: 1px dashed black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    background-color: #e6f5ff;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    color:#e6f5ff;
+    background-color: black;
+}
+    
+
 
