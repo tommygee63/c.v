@@ -6,6 +6,7 @@ header {
     text-align: center;
     border-bottom: 1px dashed black;
     background-color: #e6f5ff;
+    height: 130px;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 }
 
 body {
-    margin-top: 0px;
+    margin: 0px;
     
 }
 
@@ -32,6 +33,9 @@ main {
     margin-right:5px;
     border: 2px solid black;
     border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    box-sizing: border-box;
 }
 
 .navigation a {
@@ -48,8 +52,7 @@ main {
 }
 
 .navigation a:hover {
-    background-color: #000000;
-    color:#e6f5ff
+    font-weight: bold;
 }
 
 .contact li {
@@ -66,19 +69,18 @@ main {
     border-right: 1px solid black
 }
 
-.linked a {
+.contact a {
     text-decoration: none;
     background-color: #e6f5ff;
     color: black;
 }
 
-.linked a:visited {
+.contact a:visited {
     color:black;
 }
 
-.linked a:hover {
-    color:#e6f5ff;
-    background-color: #000000;
+.contact a:hover {
+    font-weight: bold;
 }
 
 h2 {
@@ -89,7 +91,33 @@ h2 {
     display:inline-block;
 }
 
+.work h3,
+.work h4,
+.work p {
+    padding-left: 20px;
+}
+
+.work ul {
+    padding-left: 60px;
+}
+
 .edu-main {
+    display: flex;
+    justify-content: center;
+}
+
+.edu {
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+#first {
+    border-left: 1px solid black;
+}
+
+/*.edu-main {
     display: table;
 }
 
@@ -106,9 +134,39 @@ h2 {
 
 #last {
     border-right: 2px solid black;
+}*/
+
+.quals .flex-box {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
-.table {
+.flex-box .qual {
+    width: 25%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f5ff;
+}
+
+.qual a {
+    text-decoration: none;
+    background-color: #e6f5ff;
+    color: black;
+}
+
+.qual a:hover {
+    font-weight: bold;
+}
+
+/*.table {
     width: 75%;
     margin: 0 auto;
 }
@@ -132,9 +190,43 @@ h2 {
 .table a:hover {
     background-color: #000000;
     color: #e6f5ff;
-}
+}*/
 
 .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 300px;
+    row-gap: 10px;
+    justify-content: space-evenly;
+    grid-auto-rows: 300px;
+}
+
+.project {
+    padding-left: 10px;
+    border: 3px solid #e6f5ff;
+    box-shadow: 5px 5px  #e6f5ff;
+}
+
+.projects a {
+    text-decoration: none;
+    color: black;
+    background-color: #e6f5ff;
+}
+
+.projects a:visited {
+    color: black;
+}
+
+.projects a:hover {
+    font-weight: bold;
+}
+
+/*#django-delights {
+    overflow-y: scroll;
+}*/
+
+
+/*.projects {
     display: table;
 }
 
@@ -142,11 +234,12 @@ h2 {
     display: table-cell;
     padding: 0 15px;
     padding-bottom: 15px;
-}
+}*/
 
 footer {
     text-align: center;
     border-top: 1px dashed black;
+    margin-top: 10px;
 }
 
 footer a {
@@ -160,8 +253,7 @@ footer a:visited {
 }
 
 footer a:hover {
-    color:#e6f5ff;
-    background-color: black;
+    font-weight: bold;
 }
     
 
