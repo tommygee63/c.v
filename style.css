@@ -192,6 +192,10 @@ h2 {
     color: #e6f5ff;
 }*/
 
+.portfolio {
+    padding-bottom: 40px;
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 45%);
