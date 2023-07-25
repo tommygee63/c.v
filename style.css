@@ -6,7 +6,7 @@ header {
     text-align: center;
     border-bottom: 1px dashed black;
     background-color: #e6f5ff;
-    height: 130px;
+    /*height: 130px;*/
 }
 
 h1 {
@@ -254,6 +254,34 @@ footer a:visited {
 
 footer a:hover {
     font-weight: bold;
+}
+
+@media only screen and (max-width:500px) {
+    main {
+        width: 95%;
+    }
+    .navigation {
+        display: none;
+    }
+    .contact .phone,
+    .contact .email {
+        border: none;
+    }
+    .contact .email {
+        margin: 2px 15px;
+    }
+    .edu {
+        overflow-y: scroll;
+    }
+    .flex-box .qual {
+        width: 70%;
+    }
+    .projects {
+        grid-template-columns: 90%;
+    }
+    .project {
+        overflow-y: scroll;
+    }
 }
     
 
