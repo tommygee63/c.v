@@ -270,8 +270,20 @@ footer a:hover {
     .contact .email {
         margin: 2px 15px;
     }
+    .edu-main {
+        flex-wrap: wrap;
+    }
     .edu {
+        width: 95%;
+        height: 120px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: none;
+        border-right: none;
         overflow-y: scroll;
+    }
+    #first {
+        border-left: none;
     }
     .flex-box .qual {
         width: 70%;
