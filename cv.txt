@@ -43,11 +43,8 @@
                     <li>Providing pastoral support to a tutor group of 10 students</li>
                     <li>Directing LSAs to provide the best support</li>
                     <li>Liaising with parents and other agencies</li>
-                    <li>Maintain high safeguarding standards and follow safeguarding policies.</li>
                     <li>Arranging and leading muti-agency EHCP review meetings</li>
                     <li>Taking part in quality assurance procedures to maintain high levels of teaching and learning</li>
-                    <li>Planning and running the annual Ten Tors Jubilee Challenge event</li>
-                    <li>Deliviering CPI Safety Intervention and trauma informed care training to the staff team</li>
                 </ul>
                </div>
                <div class="newquay">
@@ -85,21 +82,23 @@
                 </div>
             </div>
             <div class="quals" id="quals">
-                <h2>Qualifications and Training</h2>
+                <h2>Qualifications</h2>
                 <div class="flex-box">
                     <div class="qual">
-                        <p>Level 2 Safeguarding</p>
+                        <a href="https://www.codecademy.com/profiles/tommygee63/certificates/607878ed81004d0017706259" target="_blank">Build Python Web Apps with Django</a>
                     </div>
                     <div class="qual">
-                        <p>Safety Intervention Advanced and Emergency - Working with Children and Young People</p>
+                        <a href="https://www.codecademy.com/profiles/tommygee63/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank">Learn HTML</a>
                     </div>
                     <div class="qual">
-                        <p>Prevent Online</p>
+                        <a href="https://www.codecademy.com/profiles/tommygee63/certificates/042a4e5884e3eb6ea1f2a12be6abb851" target="_blank">Learn SQL</a>
                     </div>
                     <div class="qual">
-                        <p>Equality and Diversity</p>
+                        <a href="https://www.codecademy.com/profiles/tommygee63/certificates/18580789eaba28f09e116f4fc2acec44" target="_blank">Learn Intermediate Python 3</a>
                     </div>
-
+                    <div class="qual">
+                        <a href="https://www.codecademy.com/profiles/tommygee63/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank">Learn Python 3</a>
+                    </div>
                 <!--<table>
                     <tr>
                         <td><a href="https://www.codecademy.com/profiles/tommygee63/certificates/607878ed81004d0017706259" target="_blank">Build Python Web Apps with Django</a></td>
@@ -113,7 +112,6 @@
             </div>
             <div class="portfolio" id="portfolio">
                 <h2>Portfolio</h2>
-                <p>I am taking online courses to learn frontend web design. I have built skills using HTML, CSS, JavaScript and I am currently learning how to build web apps using React.</p>
                 <div class="projects">
 
                     <div class="project">
@@ -154,7 +152,32 @@
                         <p>The page can be viewed <a href="https://tommygee63.github.io/style-guide/" target="_blank">here</a>. 
                             The code can be viewed <a href="https://github.com/tommygee63/style-guide" target="_blank">here</a>.</p>
                     </div>
-                                     
+                    <div class="project">
+                        <h3>Tea Cozy</h3>
+                        <p>The Tea Cozy home page was built in response to the given 
+                            <a href="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg?_gl=1*uyokl9*_ga*MTg2MjE5Njc0Mi4xNjAzNjY2OTY3*_ga_3LRZM6TM9L*MTY4OTc3MDMxMS4xOTUuMS4xNjg5NzcwNTk5LjAuMC4w" target="_blank">design spec</a>
+                        </p>
+                        <p>The page can be viewed <a href="https://tommygee63.github.io/teacozy/" target="_blank">here</a>. 
+                            The code can be viewed <a href="https://github.com/tommygee63/teacozy" target="_blank">here</a>.</p>
+                    </div>
+                    <div class="project" id="django-delights">
+                        <h3>Django Delights</h3>
+                        <p>Django Delights is the final project in the Build Python Web Apps with Django skill path.</p>
+                        <p>It is an inventory management app that allows the user to:</p>
+                        <ul>
+                            <li>View, create and update ingredients</li>
+                            <li>View and create menu items</li>
+                            <li>Create new purchases</li>
+                            <li>View a breakdown of costs, revenue and profit</li>
+                        </ul>
+                        <p>The code for Django Delights can be viewed <a href="https://github.com/tommygee63/djangodelights" target="_blank">here</a>.</p>
+                    </div>
+                    <div class="project">
+                        <h3>HTML Cheatsheet</h3>
+                        <p>This is a simple web page displaying a table that lists some of the commonly used html tags.</p>
+                        <p>The page can be viewed <a href="https://tommygee63.github.io/html-cheatsheet/" target="_blank">here</a>. 
+                           The code can be viewed <a href="https://github.com/tommygee63/html-cheatsheet" target="_blank">here</a>.</p>
+                    </div>                 
                 </div>
             </div>
         </main>
