@@ -117,25 +117,6 @@ h2 {
     border-left: 1px solid black;
 }
 
-/*.edu-main {
-    display: table;
-}
-
-.edu {
-    display: table-cell;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    text-align: center;
-}
-
-#first {
-    border-left: 2px solid black;
-}
-
-#last {
-    border-right: 2px solid black;
-}*/
-
 .quals .flex-box {
     
     display: flex;
@@ -167,43 +148,14 @@ h2 {
     font-weight: bold;
 }
 
-/*.table {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.quals table {
-    border: 2px solid black;
-}
-
-.quals td {
-    border: 1px solid black;
-    padding: 2px 5px;
-    background-color: #e6f5ff;
-}
-
-.quals a {
-    text-decoration: none;
-    background-color: #e6f5ff;
-    color: black;
-}
-
-.table a:hover {
-    background-color: #000000;
-    color: #e6f5ff;
-}*/
-
 .portfolio {
     padding-bottom: 40px;
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 300px;
-    row-gap: 10px;
-    justify-content: space-evenly;
-    grid-auto-rows: 300px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
 }
 
 .project {
@@ -225,21 +177,6 @@ h2 {
 .projects a:hover {
     font-weight: bold;
 }
-
-/*#django-delights {
-    overflow-y: scroll;
-}*/
-
-
-/*.projects {
-    display: table;
-}
-
-.project {
-    display: table-cell;
-    padding: 0 15px;
-    padding-bottom: 15px;
-}*/
 
 footer {
     text-align: center;
