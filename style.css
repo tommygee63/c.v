@@ -230,7 +230,8 @@ footer a:hover {
         width: 70%;
     }
     .projects {
-        grid-template-columns: 90%;
+        flex-direction: column;
+        row-gap: 10px;
     }
     .project {
         overflow-y: scroll;
